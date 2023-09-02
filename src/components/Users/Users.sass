@@ -1,0 +1,66 @@
+.users
+  display: flex
+  flex-direction: column
+  gap: 10px
+  min-height: 830px
+  overflow-y: scroll
+  box-sizing: border-box
+
+  &::-webkit-scrollbar
+    width: 0
+
+.usercard
+  display: flex
+  flex-direction: row
+  justify-content: space-between
+  align-items: center
+  width: 100%
+  height: 60px
+  box-shadow: var(--card-box-shadow)
+  background: var(--white-color)
+  padding: 10px
+  box-sizing: border-box
+  border-radius: 4px
+  cursor: pointer
+  border: 2px solid var(--white-color)
+
+.usercard_content
+  display: flex
+  flex-direction: row
+  align-items: center
+  gap: 14px
+
+.usercard__active
+  background-color: var(--active-user-background-color)
+
+
+.usercard_avatar
+  display: flex
+  justify-content: center
+  align-items: center
+  width: 40px
+  height: 40px
+  border-radius: 50%
+  background: var(--white-color)
+  border: 0.667px solid var(--border-color)
+
+.usercard_userimage
+  width: 40px
+  height: 40px
+  border-radius: 50%
+
+.usercard_usericon
+  width: 26px
+  height: 32px
+  margin: 8px 7px 0
+
+.usercard_username
+  color: #161718
+  font-size: 16px
+  font-style: normal
+  font-weight: 400
+  line-height: 20px
+
+
+.usercard_status
+  display: flex

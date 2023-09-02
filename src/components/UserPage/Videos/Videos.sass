@@ -1,0 +1,55 @@
+.videos
+  display: flex
+  flex-direction: column
+  gap: 10px
+  padding: 10px
+
+.videoitem
+  display: flex
+  justify-content: space-between
+  height: 66px
+  box-sizing: border-box
+  border: 1px solid var(--separator-color)
+  border-radius: 4px
+  padding: 8px 10px
+
+.videoitem_content
+  display: flex
+  flex-direction: row
+  gap: 10px
+
+
+.videoitem_preview
+  width: 82px
+  height: 46px
+  border-radius: 2px
+  margin: 2px 0
+
+.videoitem_text
+  display: flex
+  flex-direction: column
+  gap: 17px
+
+
+.videoitem_title
+  color: var(--primary-text-color)
+  width: 350px
+  white-space: nowrap
+  overflow: hidden
+  text-overflow: ellipsis
+  font-size: 16px
+  line-height: 16px
+
+.videoitem_author
+  font-size: 14px
+  color: var(--secondary-text-color)
+  line-height: 14px
+
+.video_date
+  display: flex
+  flex-direction: row
+  justify-content: flex-end
+  align-items: flex-end
+  font-size: 14px
+  color: var(--secondary-text-color)
+  line-height: 14px

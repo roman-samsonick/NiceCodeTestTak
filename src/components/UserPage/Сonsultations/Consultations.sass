@@ -1,0 +1,65 @@
+.consultations
+  display: flex
+  flex-direction: column
+  gap: 10px
+  padding: 10px
+
+
+.consultation
+  display: flex
+  flex-direction: row
+  justify-content: space-between
+  height: 66px
+  padding: 11px 11px 8px 10px
+  box-sizing: border-box
+  border-radius: 4px
+  border: 1px solid var(--separator-color)
+  filter: drop-shadow(0px 0px 4px rgba(47, 47, 47, 0.07))
+
+.consultation__active
+  border: 1px solid var(--active-color)
+
+
+.consultation_content
+  display: flex
+  flex-direction: row
+  align-items: center
+  gap: 10px
+  width: fit-content
+
+
+.consultation_icon
+  display: flex
+  justify-content: center
+  align-items: center
+  width: 40px
+  height: 40px
+  border-radius: 50%
+  background: var(--default-icon-background-color)
+
+.consultation_icon__active
+  background: var(--active-color)
+
+.consultation_text
+  display: flex
+  flex-direction: column
+  gap: 14px
+
+.consultation_name
+  color: var(--primary-text-color)
+  font-size: 16px
+  font-style: normal
+  line-height: 16px
+
+
+.consultation_info
+  font-size: 14px
+  color: var(--secondary-text-color)
+  line-height: normal
+
+.consultation_status
+  display: flex
+  justify-content: flex-end
+  align-items: flex-end
+  margin-bottom: -1px
+  color: var(--error-color)

@@ -1,0 +1,39 @@
+.dropdown
+  display: flex
+  justify-content: center
+  align-items: center
+  width: 34px
+  height: 34px
+  border-radius: 50%
+  position: relative
+  cursor: pointer
+
+
+.dropdown_ellipsisicon
+  width: 20px
+  height: 4px
+
+.dropdown_menu
+  display: flex
+  flex-direction: column
+  background: var(--white-color)
+
+  padding-top: 9px
+  padding-bottom: 8px
+  position: absolute
+  top: 65%
+  right: 50%
+  z-index: 2
+  filter: drop-shadow(0px 2px 16px rgba(34, 34, 34, 0.16))
+
+.dropdown_menuitem
+  display: flex
+  flex-direction: row
+  align-items: center
+  padding-left: 20px
+  width: 230px
+  height: 35px
+  cursor: pointer
+
+  &:hover
+    background: var(--hover-color)
